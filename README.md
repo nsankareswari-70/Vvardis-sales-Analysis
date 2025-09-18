@@ -370,5 +370,11 @@ order by Year,Month;
 ```
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/1a47f2b39277375bd10dd2d39e6977aeacf0b1e5/vvar3.png)
 
-
-
+3. Monthly Revenue From Europe
+   ``` sql
+    select region as Region,date_format(sale_date,'%Y') as Year,date_format(sale_date,'%Y - %m') as       Month,
+        sum(units_sold*unit_price) as Revenue from sales 
+       where region='Europe'
+    group by Year,Month 
+    order by Year,Month;
+```
