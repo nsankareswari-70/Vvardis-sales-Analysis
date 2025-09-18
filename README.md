@@ -321,6 +321,9 @@ INSERT INTO sales (sale_date, region, channel, product_name, units_sold, unit_pr
 ('2025-02-25', 'Europe', 'Consumer', 'Enamel_Repair_Gel', 9, 60.0, 'New'),
 ('2025-03-11', 'Europe', 'Dental_Professional', 'Mouthwash', 1, 8.0, 'Returning');
 ```
+### Recurring Analysis Queries
+
+1. Monthly Revenue Trends
 
 
 
