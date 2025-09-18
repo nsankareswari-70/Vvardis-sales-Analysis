@@ -377,7 +377,7 @@ order by Year,Month;
        where region='Europe'
     group by Year,Month 
     order by Year,Month;
-```4. To Find the yearly revenue of the company
+4. To Find the yearly revenue of the company
    ``` sql
           select date_format(sale_date,'%Y') as Year,
             sum(units_sold*unit_price) as Revenue from sales 
