@@ -361,7 +361,7 @@ order by year,month;
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/e5b24337719ec229ee451e396cf4e483e33199c3/vvar2.png)
 
 2. Monthly Revenue From US
-   ``` sql
+``` sql
    select date_format(sale_date,'%Y') as Year,date_format(sale_date,'%Y - %m') as Month,
 sum(units_sold*unit_price) as Revenue from sales 
 where region='US'
