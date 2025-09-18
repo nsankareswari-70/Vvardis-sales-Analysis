@@ -321,9 +321,18 @@ INSERT INTO sales (sale_date, region, channel, product_name, units_sold, unit_pr
 ('2025-02-25', 'Europe', 'Consumer', 'Enamel_Repair_Gel', 9, 60.0, 'New'),
 ('2025-03-11', 'Europe', 'Dental_Professional', 'Mouthwash', 1, 8.0, 'Returning');
 ```
+
+``` sql
+-- inserting 2 more rows for the year 2024
+insert into sales(sale_date,region,channel,product_name,units_sold,unit_price,customer_type)
+values('2024-07-13','Europe','Consumer','Toothpaste',3,6.5,'New'),
+('2024-08-16','US','Dental_Professional','Whitening_Strips',3,45.0,'Returning');
+```
+
 ### Recurring Analysis Queries
 
 1. Monthly Revenue Trends
+
 
 
 
