@@ -333,7 +333,12 @@ values('2024-07-13','Europe','Consumer','Toothpaste',3,6.5,'New'),
 
 1. Monthly Revenue Trends
 
-
+``` sql
+select date_format(sale_date,'%Y') as year,date_format(sale_date,'%Y - %m') as month,
+sum(units_sold*unit_price) as Revenue from sales
+group by year,month 
+order by year,month;
+```
 
 
 
