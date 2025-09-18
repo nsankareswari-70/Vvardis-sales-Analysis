@@ -339,7 +339,7 @@ sum(units_sold*unit_price) as Revenue from sales
 group by year,month 
 order by year,month;
 ```
-![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/bf0bbe4ac8cf4e001ee03f3388da06f004dba60d/vvar1.png)
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/e5b24337719ec229ee451e396cf4e483e33199c3/vvar2.png)
 
 
 
