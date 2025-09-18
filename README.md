@@ -368,6 +368,7 @@ where region='US'
 group by Year,Month 
 order by Year,Month;
 ```
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/1a47f2b39277375bd10dd2d39e6977aeacf0b1e5/vvar3.png)
 
 
 
