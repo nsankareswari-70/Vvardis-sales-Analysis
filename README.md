@@ -363,10 +363,10 @@ order by year,month;
 2. Monthly Revenue From US
 ``` sql
    select date_format(sale_date,'%Y') as Year,date_format(sale_date,'%Y - %m') as Month,
-sum(units_sold*unit_price) as Revenue from sales 
-where region='US'
-group by Year,Month 
-order by Year,Month;
+   sum(units_sold*unit_price) as Revenue from sales 
+   where region='US'
+   group by Year,Month 
+   order by Year,Month;
 ```
 
 
