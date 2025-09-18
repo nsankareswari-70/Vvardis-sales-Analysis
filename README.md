@@ -395,5 +395,4 @@ group by sale_date;
    select date_format(sale_date,'%Y')as Year,product_name,
    sum(units_sold*unit_price) as Revenue from sales 
    group by product_name,Year order by Revenue desc;
-```
-
+```![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/ae333a68c58ca94284fcbbeb8514594b9b7a4be9/vvar5.png)
