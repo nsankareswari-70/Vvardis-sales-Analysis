@@ -1,6 +1,25 @@
 # Vvardis-sales-Analysis
 ## Project Objective:
-Creating a recurring and ad hoc analysis in MySQL with 300 rows of sample data.
+Creating a Recurring and Ad hoc analysis in MySQL with 300 rows of sample data.
+
+## Quick Overview on Recurring and Ad hoc analyis
+
+Recurring analysis provides data at a set interval (like monthly sales reports) and uses a standard format to track ongoing metrics, while ad hoc analysis generates specific, one-time reports in response to immediate questions or unique events, offering flexible exploration beyond scheduled reports. Ad hoc analysis is more flexible and reactive, whereas recurring analysis is pre-planned and consistent. 
+### Recurring analysis 
+- Purpose: To monitor key performance indicators (KPIs) and track performance over time, providing a consistent view of the business. 
+- Timing: Done on a regular, predetermined schedule, such as weekly, monthly, or quarterly. 
+- Structure: Uses standardized templates and fixed parameters, resulting in predictable data sets and polished formatting. 
+- Examples: A monthly financial report sent to a CFO, quarterly sales performance analysis, or a weekly operational metrics dashboard. 
+### Ad hoc analysis 
+- Purpose: To answer specific, immediate questions or investigate complex, unique issues that standard reports don't cover. 
+- Timing: Created on-demand, in real-time, or as needed to address new situations. 
+- Structure: Flexible and unplanned, allowing users to dive deep into data and explore trends without being limited by predefined metrics. 
+- Examples: Analyzing sales for a new product promotion during a specific holiday, investigating employee performance in a particular department, or exploring anomalies in system performance. 
+## Key differences summarized
+- Flexibility: Ad hoc analysis is highly flexible; recurring analysis is static. 
+- Timing: Ad hoc is reactive; recurring is proactive. 
+- Structure: Ad hoc is specific and unplanned; recurring is standardized and scheduled. 
+- Scope: Ad hoc analysis explores beyond routine reports to uncover hidden patterns, while recurring analysis focuses on established metrics. 
 
 Create a database named Vvardis in Mysql workbench
 ```sql
