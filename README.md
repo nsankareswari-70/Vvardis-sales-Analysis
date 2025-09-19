@@ -2,7 +2,7 @@
 ## Project Objective:
 Creating a Recurring and Ad hoc analysis in MySQL with 300 rows of sample data.
 
-## Quick Overview on Recurring and Ad hoc analyis
+## Quick Overview on Recurring and Ad hoc analyis 
 
 Recurring analysis provides data at a set interval (like monthly sales reports) and uses a standard format to track ongoing metrics, while ad hoc analysis generates specific, one-time reports in response to immediate questions or unique events, offering flexible exploration beyond scheduled reports. Ad hoc analysis is more flexible and reactive, whereas recurring analysis is pre-planned and consistent. 
 ### Recurring analysis 
