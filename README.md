@@ -476,14 +476,11 @@ LIMIT  5;
 
  4. Spot Anomalies: Unusually High Daily Sales
 ```
-SELECT 
-    sale_date,
-    SUM(units_sold * unit_price) AS daily_revenue
-FROM sales
-GROUP BY sale_date
-HAVING daily_revenue > 2000
-ORDER BY daily_revenue DESC;
+select
+sale_date as Sale_Date,
+sum(unit_price*units_sold)as Daily_Revenue
+from sales group by sale_date having Daily_Revenue > 5000 order by Daily_Revenue desc;
 ```
-![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/6ba61138c75b4825e2b58b45fd3b6caf4e271cf2/vvar14.png)
+
 
 
