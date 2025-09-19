@@ -426,4 +426,7 @@ FROM ranked_products
 WHERE rn <= 5
 ORDER BY month, product_revenue DESC;
 ```
-
+9. Get all the sales details of the Products containing 'Treatment'
+    select * from sales where product_name like '%treatment%' ;
+   
+   
