@@ -394,6 +394,7 @@ select sale_date,
 sum(units_sold*unit_price) as Revenue from sales where sale_date='2025-01-20'
 group by sale_date;
 ```
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/8f2897643a7a381db39fc137937b6647230624a4/vvar17.png)
 6. Finding the most and least revenue-producing products each year
    ``` sql
    select date_format(sale_date,'%Y')as Year,product_name,
