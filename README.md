@@ -437,7 +437,7 @@ ORDER BY month, product_revenue DESC;
    ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/303b23f1151d829e54922445cb9fb9e5db656108/vvar9.png)
 
 ## Ad hoc Analysis queries
-1. Investigate February Revenue by Products
+1. Investigate February Revenue drop by Products
 ```
    SELECT product_name AS ProductName,
        Sum(units_sold * unit_price) AS Feb_Revenue
@@ -448,3 +448,14 @@ ORDER  BY feb_revenue DESC;
 ```
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/f6205a941cd07085ea88520e2f0e5dfc9dcd15e4/vvar11.png)
 
+2. Check if New vs Returning Customers Caused It
+   ```
+   
+   SELECT 
+    customer_type as Customer_Type,
+    SUM(units_sold * unit_price) AS Revenue
+    FROM sales
+    WHERE sale_date BETWEEN '2025-02-01' AND '2025-02-28'
+    GROUP BY customer_type;
+   ```
+   
