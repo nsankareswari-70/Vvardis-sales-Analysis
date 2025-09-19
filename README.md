@@ -427,6 +427,7 @@ WHERE rn <= 5
 ORDER BY month, product_revenue DESC;
 ```
 9. Get all the sales details of the Products containing 'Treatment'
+    ```
     select * from sales where product_name like '%treatment%' ;
-   
-   
+   ```
+   ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/303b23f1151d829e54922445cb9fb9e5db656108/vvar9.png)
