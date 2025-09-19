@@ -484,5 +484,6 @@ GROUP BY sale_date
 HAVING daily_revenue > 2000
 ORDER BY daily_revenue DESC;
 ```
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/6ba61138c75b4825e2b58b45fd3b6caf4e271cf2/vvar14.png)
 
 
