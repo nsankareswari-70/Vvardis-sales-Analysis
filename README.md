@@ -405,6 +405,7 @@ From the above table we can say Professional_Whitening is the most revenue produ
    sum(units_sold*unit_price) as Revenue from sales
    group by Region,channel order by Revenue Desc;
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/8cbb0f1d7e8635d579913168c79104c0671729dc/vvar6.png)
+    
 8. Top 5 Products for each month
 ``` sql
 WITH ranked_products AS (
