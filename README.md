@@ -458,4 +458,5 @@ ORDER  BY feb_revenue DESC;
     WHERE sale_date BETWEEN '2025-02-01' AND '2025-02-28'
     GROUP BY customer_type;
    ```
+   ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/d02f2ba7ef0b75d5c5279950b87c957a138ffe98/vvar12.png)
    
