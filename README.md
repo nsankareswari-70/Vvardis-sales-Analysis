@@ -461,3 +461,13 @@ ORDER  BY feb_revenue DESC;
    ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/d02f2ba7ef0b75d5c5279950b87c957a138ffe98/vvar12.png)
    
 From the data, we can say that Returning Customers in February have the least Revenue.
+3.Find Top 5 Products in the US Market
+``` 
+SELECT product_name    AS USTop5Products,
+       Sum(units_sold) AS TotalUnits_Sold
+FROM   sales
+WHERE  region = 'US'
+GROUP  BY product_name
+ORDER  BY totalunits_sold DESC
+LIMIT  5;
+```
