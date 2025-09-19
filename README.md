@@ -473,3 +473,16 @@ ORDER  BY totalunits_sold DESC
 LIMIT  5;
 ```
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/eebc4cff7005ab1009030e8910f071fc0ab1e5f3/vvar13.png)
+
+ 4. Spot Anomalies: Unusually High Daily Sales
+```
+SELECT 
+    sale_date,
+    SUM(units_sold * unit_price) AS daily_revenue
+FROM sales
+GROUP BY sale_date
+HAVING daily_revenue > 2000
+ORDER BY daily_revenue DESC;
+```
+
+
