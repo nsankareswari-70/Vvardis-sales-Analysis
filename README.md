@@ -438,7 +438,7 @@ ORDER BY month, product_revenue DESC;
 
 ## Ad hoc Analysis queries
 1. Investigate February Revenue by Products
-   ```sql
+```
    SELECT product_name AS ProductName,
        Sum(units_sold * unit_price) AS Feb_Revenue
 FROM   sales
@@ -446,4 +446,5 @@ WHERE  sale_date BETWEEN '2025-02-01' AND '2025-02-28'
 GROUP  BY product_name
 ORDER  BY feb_revenue DESC;
 ```
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/f6205a941cd07085ea88520e2f0e5dfc9dcd15e4/vvar11.png)
 
