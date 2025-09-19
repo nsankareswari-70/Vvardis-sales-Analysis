@@ -404,5 +404,5 @@ From the above table we can say Professional_Whitening is the most revenue produ
    select Region,channel,
    sum(units_sold*unit_price) as Revenue from sales
    group by Region,channel order by Revenue Desc;
-```![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/c646456a0ec0da9afaec745cf09e5d21146f8779/vvar6.png)
+```![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/8cbb0f1d7e8635d579913168c79104c0671729dc/vvar6.png)
   
