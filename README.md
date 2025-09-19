@@ -379,7 +379,8 @@ order by Year,Month;
        where region='Europe'
     group by Year,Month 
     order by Year,Month;
-   
+   ```
+   ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/b5f8a074034f3c0b2f6a48291655ff1ff774ba25/vvar16.png)
 4. To Find the yearly revenue of the company
    ``` sql
           select date_format(sale_date,'%Y') as Year,
