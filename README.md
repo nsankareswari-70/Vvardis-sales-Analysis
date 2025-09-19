@@ -353,10 +353,12 @@ values('2024-07-13','Europe','Consumer','Toothpaste',3,6.5,'New'),
 1. Monthly Revenue Trends
 
 ``` sql
-select date_format(sale_date,'%Y') as year,date_format(sale_date,'%Y - %m') as month,
-sum(units_sold*unit_price) as Revenue from sales
-group by year,month 
-order by year,month;
+SELECT Date_format(sale_date, '%Y')      AS year,
+       Date_format(sale_date, '%Y - %m') AS month,
+       Sum(units_sold * unit_price)      AS Revenue
+FROM   sales
+GROUP  BY year, month
+ORDER  BY year, month; 
 ```
 ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/e5b24337719ec229ee451e396cf4e483e33199c3/vvar2.png)
 
@@ -433,3 +435,15 @@ ORDER BY month, product_revenue DESC;
     select * from sales where product_name like '%treatment%' ;
    ```
    ![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/303b23f1151d829e54922445cb9fb9e5db656108/vvar9.png)
+
+## Ad hoc Analysis queries
+1. Investigate February Revenue by Products
+   ```sql
+   SELECT product_name AS ProductName,
+       Sum(units_sold * unit_price) AS Feb_Revenue
+FROM   sales
+WHERE  sale_date BETWEEN '2025-02-01' AND '2025-02-28'
+GROUP  BY product_name
+ORDER  BY feb_revenue DESC;
+```
+
