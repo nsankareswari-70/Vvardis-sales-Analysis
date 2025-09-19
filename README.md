@@ -426,7 +426,7 @@ FROM ranked_products
 WHERE rn <= 5
 ORDER BY month, product_revenue DESC;
 ```
-
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/6fb4288d90970ebacb1ca04ccf24ca6f8fcfb601/vvar10.png)
 
 9. Get all the sales details of the Products containing 'Treatment'
     ```
