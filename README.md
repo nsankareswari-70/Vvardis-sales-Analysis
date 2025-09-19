@@ -481,6 +481,6 @@ sale_date as Sale_Date,
 sum(unit_price*units_sold)as Daily_Revenue
 from sales group by sale_date having Daily_Revenue > 5000 order by Daily_Revenue desc;
 ```
-
+![img alt](https://github.com/nsankareswari-70/Vvardis-sales-Analysis/blob/d7643bd8be1385d9feb6c319dfc42ec1a6e72075/vvar15.png)
 
 
